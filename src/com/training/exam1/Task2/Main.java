@@ -21,7 +21,7 @@ public class Main {
 				
 				try {
 					phonebook.addContact(newc);
-				} catch (ExistingStudentException e) {
+				} catch (ExistingContactException e) {
 					System.out.println(e.getMessage());
 				}
 			}

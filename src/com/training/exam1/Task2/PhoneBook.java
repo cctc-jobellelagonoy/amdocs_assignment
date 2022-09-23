@@ -14,10 +14,10 @@ public class PhoneBook {
 		contacts = new ArrayList<>();
 	}
 	
-	public void addContact(Contact contact) throws ExistingStudentException{
+	public void addContact(Contact contact) throws ExistingContactException{
 		try {
 			Contact c = contacts.stream().filter(a -> a.equals(contact)).findFirst().get();
-			throw new ExistingStudentException();
+			throw new ExistingContactException();
 		}
 		catch(NoSuchElementException e) {
 			contacts.add(contact);
