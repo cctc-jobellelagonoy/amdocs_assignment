@@ -18,7 +18,7 @@ public class Contact {
 	} 
 	
 	public boolean equals(Contact c) {
-		if(this.name.equals(c.getName()) && this.number.equals(c.getNumber())) {
+		if(this.number.equals(c.getNumber())) {
 			return true;
 		}
 		else return false;
