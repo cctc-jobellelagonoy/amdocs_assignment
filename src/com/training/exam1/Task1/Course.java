@@ -24,6 +24,7 @@ public class Course {
 	}
 	
 	public List<Student> getStudents() {
+		Collections.sort(students);
 		return students;
 	}
 	
