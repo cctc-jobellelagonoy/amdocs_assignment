@@ -21,7 +21,13 @@ public class Menu {
 		System.out.println("---------------------------");
 		System.out.print("Enter n: ");
 		
-		int n = Integer.parseInt(input.nextLine());
+		int n = 0;
+		try {
+			n = Integer.parseInt(input.nextLine());
+		}
+		catch(Exception e) {
+			System.out.println("Invalid Input.");
+		}
 		
 		return n;
 	}
