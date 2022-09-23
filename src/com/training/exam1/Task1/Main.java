@@ -28,8 +28,13 @@ public class Main {
 				Student student = curriculum.getStudentByID(menu.getExistingStudentID());
 				Course course = curriculum.getCourseByID(menu.getExistingCourseID());
 				if(isStudentValid(student, curriculum) && isCourseValid(course, curriculum)) {
-					course.addStudent(student);
-					System.out.println(student.getName()+" was successfully enrolled in "+course.getName());
+					try {
+						course.addStudent(student);
+						System.out.println(student.getName()+" was successfully enrolled in "+course.getName());
+					}
+					catch(ExistingStudentException e) {
+						System.out.println(e.getMessage());
+					}
 				}
 			}
 			else if(choice == 4) {

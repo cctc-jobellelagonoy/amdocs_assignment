@@ -3,6 +3,8 @@ package com.training.exam1.Task1;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.NoSuchElementException;
+import java.util.Objects;
 
 public class Course {
 
@@ -28,8 +30,15 @@ public class Course {
 		return students;
 	}
 	
-	public void addStudent(Student student) {
-		students.add(student);
+	public void addStudent(Student student) throws ExistingStudentException {
+		
+		try {
+			Student s = students.stream().filter(a -> a.getStudentID().equals(student.getStudentID())).findFirst().get();
+			throw new ExistingStudentException();
+		}
+		catch(NoSuchElementException e) {
+			students.add(student);
+		}
 	}
 	
 }
