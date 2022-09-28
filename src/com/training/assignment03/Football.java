@@ -1,4 +1,4 @@
-package com.training.assignment05;
+package com.training.assignment03;
 
 public class Football implements Sport {
 
