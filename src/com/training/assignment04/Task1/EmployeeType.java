@@ -1,4 +1,4 @@
-package com.training.assignment06.Task1;
+package com.training.assignment04.Task1;
 
 public class EmployeeType {
 	

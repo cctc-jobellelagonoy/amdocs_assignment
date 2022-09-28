@@ -1,4 +1,4 @@
-package com.training.assignment06.Task2;
+package com.training.assignment04.Task2;
 
 public class Student {
 	protected int hostelNo, roomNo, regNo;
