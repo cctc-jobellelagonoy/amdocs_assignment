@@ -1,4 +1,4 @@
-package com.training.assignment11.Task2;
+package com.training.assignment09.Task2;
 
 public class Waiter implements Runnable{
 	
