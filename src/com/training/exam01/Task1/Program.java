@@ -1,4 +1,4 @@
-package com.training.exam1.Task1;
+package com.training.exam01.Task1;
 
 import java.util.HashMap;
 import java.util.List;

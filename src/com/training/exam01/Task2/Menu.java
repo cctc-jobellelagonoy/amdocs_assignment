@@ -1,4 +1,4 @@
-package com.training.exam1.Task2;
+package com.training.exam01.Task2;
 
 import java.util.Scanner;
 

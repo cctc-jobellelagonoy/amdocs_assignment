@@ -1,4 +1,4 @@
-package com.training.exam1.Task1;
+package com.training.exam01.Task1;
 
 public class ExistingStudentException extends Exception{
 

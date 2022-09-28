@@ -1,11 +1,11 @@
-package com.training.exam1.Task2;
+package com.training.exam01.Task2;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-import com.training.exam1.Task1.ExistingStudentException;
-import com.training.exam1.Task1.Student;
+import com.training.exam01.Task1.ExistingStudentException;
+import com.training.exam01.Task1.Student;
 
 public class PhoneBook {
 	private List<Contact> contacts;
