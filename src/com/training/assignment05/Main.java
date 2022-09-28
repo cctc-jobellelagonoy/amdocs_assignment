@@ -1,4 +1,4 @@
-package com.training.assignment5;
+package com.training.assignment05;
 
 import java.util.Scanner;
 
