@@ -1,4 +1,4 @@
-package com.training.assignment8.Task1;
+package com.training.assignment08.Task1;
 
 public class Student {
 	private String studentName;

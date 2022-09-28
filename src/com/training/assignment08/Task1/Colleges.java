@@ -1,4 +1,4 @@
-package com.training.assignment8.Task1;
+package com.training.assignment08.Task1;
 
 import java.util.List;
 import java.util.Arrays;

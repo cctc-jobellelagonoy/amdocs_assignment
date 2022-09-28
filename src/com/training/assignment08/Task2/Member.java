@@ -1,4 +1,4 @@
-package com.training.assignment8.Task2;
+package com.training.assignment08.Task2;
 
 public class Member {
 	private String name, address;
