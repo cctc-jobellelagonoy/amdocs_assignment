@@ -1,4 +1,4 @@
-package com.training.assignment6.Task2;
+package com.training.assignment06.Task2;
 
 public class DayScholar extends Student{
 
