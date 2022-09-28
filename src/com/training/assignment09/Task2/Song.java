@@ -1,4 +1,4 @@
-package com.training.assignment9.Task2;
+package com.training.assignment09.Task2;
 
 public class Song {
 

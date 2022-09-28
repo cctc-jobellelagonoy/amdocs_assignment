@@ -1,4 +1,4 @@
-package com.training.assignment9.Task1;
+package com.training.assignment09.Task1;
 
 import java.util.HashMap;
 import java.util.Map;
