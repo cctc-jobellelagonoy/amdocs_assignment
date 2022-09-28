@@ -1,4 +1,4 @@
-package com.training.assignment07;
+package com.training.assignment05;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

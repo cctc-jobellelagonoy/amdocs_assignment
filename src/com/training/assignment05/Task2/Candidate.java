@@ -1,4 +1,4 @@
-package com.training.assignment07.Task2;
+package com.training.assignment05.Task2;
 
 public class Candidate{
 	private String name, gender;
