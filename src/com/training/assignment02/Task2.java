@@ -1,4 +1,4 @@
-package com.training.assignment04;
+package com.training.assignment02;
 
 
 import java.util.ArrayList;
