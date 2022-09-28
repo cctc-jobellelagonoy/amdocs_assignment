@@ -1,4 +1,4 @@
-package com.training.assignment09.Task1;
+package com.training.assignment07.Task1;
 
 
 public class Student{
