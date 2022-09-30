@@ -21,6 +21,10 @@ public class Cart {
 		System.out.println("--"+i.getName()+" has been added to "+category+"--");
 	}
 	
+	public void remove(String catergory, String itemName) {
+		categories.get(catergory).getItems().removeIf(i -> i.getName().equals(itemName));
+	}
+	
 	public void printReceipt() {
 		int total = 0;
 		System.out.println("______________________________________________");

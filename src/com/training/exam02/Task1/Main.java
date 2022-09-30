@@ -21,6 +21,8 @@ public class Main {
 		cart.addItem("Beverages", new Item("Soda", 80, 5));
 		cart.addItem("Beverages", new Item("Wine", 230, 2));
 		
+		cart.remove("Dairy Products", "Yogurt");
+		
 		cart.printReceipt();
 	}
 
