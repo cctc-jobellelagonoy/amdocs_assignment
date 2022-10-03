@@ -22,7 +22,7 @@ public class jdbcDemo {
 			
 			System.out.println("Connection is successful");
 		
-			//Statement stmt = con.createStatement();
+//			Statement stmt = con.createStatement();
 			
 //			String query = "CREATE TABLE STUDENTS("
 //					+ "STUD_ID VARCHAR(6) PRIMARY KEY,"
