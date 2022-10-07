@@ -14,22 +14,22 @@ public class jdbcDemo {
 	public static void main(String[] args) {
 		try {
 			DriverManager.registerDriver(new oracle.jdbc.driver.OracleDriver());
-			String url = "jdbc:oracle:thin:@localhost:1521/orcl.iiht.tech";
+			String url = "jdbc:oracle:thin:@localhost:1521/xe";
 			String userName = "system";
-			String password = "system";
+			String password = "admin";
 			
 			Connection con = DriverManager.getConnection(url, userName, password);
 			
-			System.out.println("Connection is successful");
+//			System.out.println("Connection is successful");
 		
 //			Statement stmt = con.createStatement();
-			
+//			
 //			String query = "CREATE TABLE STUDENTS("
 //					+ "STUD_ID VARCHAR(6) PRIMARY KEY,"
 //					+ "STUD_NAME VARCHAR(20) NOT NULL,"
 //					+ "ADDRESS VARCHAR(3) NOT NULL,"
 //					+ "BRANCH VARCHAR(10) NOT NULL)";
-			
+//			
 //			String query = "INSERT INTO STUDENT VALUES('ST101', 'JOHN', 'MNL', 'CS')";
 //			
 //			stmt.execute(query);
@@ -45,14 +45,14 @@ public class jdbcDemo {
 //			
 //			CallableStatement cs = con.prepareCall(query);
 //			
-//			cs.setString(1, "ST104");
-//			cs.setString(2, "Ron");
-//			cs.setString(3, "MNL");
+//			cs.setString(1, "ST105");
+//			cs.setString(2, "Ally");
+//			cs.setString(3, "MKT");
 //			cs.setString(4, "CS");
 //			
 //			cs.execute();
 			
-			PreparedStatement stmt = con.prepareStatement("SELECT * FROM STUDENT");
+			PreparedStatement stmt = con.prepareStatement("SELECT * FROM STUDENTS");
 
 			ArrayList<Student> students = new ArrayList<>();
 			
