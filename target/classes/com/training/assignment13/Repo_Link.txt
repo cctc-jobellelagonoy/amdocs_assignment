@@ -1,0 +1,4 @@
+Link to this repo:
+https://github.com/nymeria-1/WebAppDemo.git
+
+Login page connected to Oracle DB using entity manager
