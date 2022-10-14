@@ -37,7 +37,7 @@ public class Employee {
 		this.laptop = laptop;
 	}
 	
-	Employee(){
+	public Employee(){
 		
 	}
 	
